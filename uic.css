@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#base {
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  width: 100%;
+  margin: 0; 
+  height: 1000px;
+  background-color: aliceblue;
+}
+.first-division {
+    width: 20%;
+    height: 100%;
+    background:  rgb(106, 106, 209) ;
+    color: white;
+    padding: 2rem 1rem 0 2rem;
+  }
+
+.first-division ul li {
+list-style-type: none;
+margin: 8px;
+padding: 20px;
+}
+ul .side-bar {
+border-bottom:solid white 2px;
+
+}
+
+iconify-icon {
+  position: relative;
+} 
+
+ul .side-bar-sec2 {
+border-bottom: solid white 2px;
+}
+
+.second-division {
+  width: 52%;
+  height: 100%;
+  padding: 0.4rem 0 0 0;
+}
+.third-division{
+  height: 100%;
+  width: 27%;
+  border: 0;
+  padding: 2.9rem;
+  border-radius: 0.7rem;
+}
+.third-division img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+} 
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+  border: 1px solid #ccc;
+  padding: 0.1rem 0.1rem 0.1rem 0.2rem;
+  border-radius: 0.4rem;
+} 
+#logo {
+  margin: 1rem;
+  align-items: center;
+}
+.search input {
+  border: 0;
+  width: 100%;
+}
+
+.search input:focus{
+  outline: none;
+}
+
+.search div {
+  cursor: pointer;
+
+}
+.topnav {
+  padding: 3rem;
+}
+header {
+  width: 100%;
+  padding: 0.7rem;
+}
+header ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+  background: gray;
+} 
+header ul li a {
+  margin-left: 0;
+  padding: 15px 20px;
+  font-family: verdana;
+  color: black;
+  text-decoration: none;
+}
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }  
