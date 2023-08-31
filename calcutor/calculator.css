@@ -52,5 +52,13 @@ body {
     outline: none;
     margin: 5px;
     border-radius: 4px;
-    box-shadow : 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+    box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+}
+
+[class*="btns"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
 }
