@@ -13,10 +13,7 @@ function getLog(x) {
     return Math.log10(x);
    
 }
-function raisePower(x,y){
-      
-     
-    
+function raisePower(x,y){   
     
 }
 
@@ -31,8 +28,18 @@ for (item of btn) {
             btntext = "/"
         }
         
+        if (btntext == "("){
+            
+        }
+    
         if (btntext == "pi") {
-            btntext = π;
+            screen.value = π * screen.value;
+            return screen.value.replaceAll("pi", π)
+        }
+        if (btntext == "%"){
+            const hunnid = 0.01;
+            screen.value = hunnid * screen.value
+            return screen.value.replaceAll("%", "")
         }
 
         if (btntext == '=') {
