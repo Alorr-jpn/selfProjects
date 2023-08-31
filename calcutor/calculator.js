@@ -10,9 +10,14 @@ function nextIndex(string){
 }
 
 function getLog(x) {    
-    // const base = 10;
     return Math.log10(x);
    
+}
+function raisePower(x,y){
+      
+     
+    
+    
 }
 
 for (item of btn) {
@@ -25,13 +30,11 @@ for (item of btn) {
         if (btntext == "÷") {
             btntext = "/"
         }
-        if (btntext == "-") {
-            btntext = "-"
-        }
+        
         if (btntext == "pi") {
             btntext = π;
-
         }
+
         if (btntext == '=') {
             console.log(screen.value);
             if (screen.value == "" || screen.value == undefined) {
@@ -49,7 +52,10 @@ for (item of btn) {
             return screen.value = nextIndex(screen.value);
         }
         if (btntext == "log"){
-            return screen.value;
+            return screen.value = getLog(screen.value);
+        }
+        if (btntext == "root"){
+            return screen.value = sqRT(screen.value);
         }
 
         screen.value += btntext;
