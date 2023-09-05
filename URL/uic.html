@@ -1,48 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Villa Land</title>
+    <link rel="stylesheet" href="uic.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Villa Land</title>
-  <link rel="stylesheet" href="uic.css">
-</head>
-
-<body>
-  <div id="base">
-
-    <!-- first div for the first navigation division -->
-    <div class="first-division">
-      <ul>
-        <div class="side-bar">
-          <li><a href="#"><iconify-icon icon="octicon:home-16"></iconify-icon></a> Home</li>
-          <li><a href="#"><iconify-icon icon="icon-park:discovery-index"></iconify-icon></a> Discover</li>
-          <li><a href="#"><iconify-icon icon="simple-icons:soundcharts"></iconify-icon></a> Popular</li>
-          <li><a href="#"><iconify-icon icon="raphael:people"></iconify-icon></a> Following</li>
-          <li><a href="#"><iconify-icon icon="lucide:send"></iconify-icon></a> Streaming</li>
-        </div>
-        <div class="side-bar-sec2">
-          <li><a href="#"><iconify-icon icon="ci:clock"></iconify-icon></a> History</li>
-          <li><a href="#"><iconify-icon icon="teenyicons:heart-outline"></iconify-icon></a> Liked</li>
-        </div>
-        <div class="side-bar-sec3">
-          <li><a href="#"><iconify-icon icon="solar:settings-broken"></iconify-icon></a> Settings</li>
-        </div>
-      </ul>
-    </div>
-    <!-- secong div for the second navigation division -->
-    <div class="second division">
-      <div class="topnav">
-        <div class="search">
-          <input class="input-field" type="text" placeholder="Search VillaLand">
-          <div class="text-[#3651c6] text-xl">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="m20 20l-4.05-4.05m0 0a7 7 0 1 0-9.9-9.9a7 7 0 0 0 9.9 9.9z" />
-            </svg>
+  <body>
+    <div id="base">
+      <!-- first div for the vertical first navigation division -->
+      <div class="first-division">
+        <h2>CORASON</h2>
+        <ul>
+          <div class="side-bar">
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill="currentColor"
+                  d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"
+                /></svg>
+                <span>Home</span>
+            </li>
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                viewBox="0 0 48 48"
+              >
+                <g
+                  fill="none"
+                  stroke="#000"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    d="M16 6H8C6.89543 6 6 6.89543 6 8V16"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    d="M16 42H8C6.89543 42 6 41.1046 6 40V32"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    d="M32 42H40C41.1046 42 42 41.1046 42 40V32"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    d="M32 6H40C41.1046 6 42 6.89543 42 8V16"
+                  />
+                  <rect width="10" height="12" x="19" y="18" fill="#2F88FF" />
+                  <path stroke-linecap="round" d="M24 18V12" />
+                  <path stroke-linecap="round" d="M24 36V30" />
+                </g></svg>
+                <span>Discover</span>
+            </li>
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M16.038 0h6.052v17.229h-.702v-4.333h-.413v4.333h-.29v-2.521h-.412v2.52h-.29v-4.04h-.413v4.04h-.289V13.98h-.414v3.25h-.33v-2.521h-.371v2.52h-.331v-3.791h-.413v3.792h-.289v-4.333h-.414v4.333h-.701c.02-5.73.02-11.457.02-17.229ZM8.995 7.624h6.01v9.605h-.66v-2.23h-.414v2.23h-.288v-3.5h-.414v3.5h-.289v-3.5h-.413v3.5h-.33v-2.77h-.372v2.77h-.331v-2.77h-.413v2.77h-.289V14.23h-.414v3h-.289v-3.793h-.412v3.793h-.703c.02-2.687.02-6.958.02-9.605zM7.28 12.896h-.414v4.29h-.288v-1.978h-.414v1.98h-.33v-2.772h-.372v2.77h-.33v-4.04h-.414v4.04H4.43v-2.228h-.414v2.229h-.289v-3.25h-.414v3.25h-.289v-3.75h-.412v3.75H1.91V11.54h6.011v5.646h-.66c.02-1.395.02-2.833.02-4.291zm5.969 5.5h.371V24h-.371Zm4.213 0h.33v5.52h-.33zm-7.436 5.396h-.33v-5.398h.33v5.397zm7.064-5.397v5.397h-.33v-5.398h.33zm-4.544 0h.33v5.23h-.33zm6.342 0h.33v5.23h-.33zm-9.894 0h.33v4.897h-.33v-4.898ZM19.92 23.25h-.33v-4.856h.33v4.855zm-9.17-.042h-.33v-4.833h.33zm4.254-.042h-.33v-4.79h.33v4.791zm-3.511-.374h-.372v-4.417h.372zm9.852.208h-.33v-4.625h.33zm-9.191-.208h-.33v-4.417h.33zm3.883-4.397h.331v4.417h-.33Zm-9.852 4.063v-4.082h.371v4.083h-.371Zm11.98-.042v-4.04h.371v4.041h-.371zM4.8 18.396h.33v4.25H4.8v-4.252Zm16.916 0h.372v4h-.372v-4.002ZM6.91 22.415v-4.04h.33v4.041h-.33Zm-1.426-.042v-3.998h.33v4h-.33Zm15.162 0h-.331v-3.998h.33v4zm-16.96-.04h-.33v-3.917h.33zm-.701-.23h-.372v-3.709h.372Zm10.967-3.709h.372v3.625h-.372zm-5.97 3.793h-.33v-3.793h.33zm-6.009-3.794h.33v3.584h-.33zm2.128 0h.33v3.584H4.1z"
+                />
+              </svg>
+              Popular
+            </li>
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  fill="currentColor"
+                  d="M21.066 20.667c1.227-.682 1.068-3.31-.354-5.874c-.61-1.104-1.36-1.998-2.11-2.623a5.229 5.229 0 0 1-3.1 1.03a5.23 5.23 0 0 1-3.105-1.03c-.75.625-1.498 1.52-2.11 2.623c-1.423 2.563-1.58 5.192-.35 5.874c.548.312 1.126.078 1.722-.496a10.51 10.51 0 0 0-.167 1.874c0 2.938 1.14 5.312 2.543 5.312c.846 0 1.265-.865 1.466-2.188c.2 1.314.62 2.188 1.46 2.188c1.397 0 2.546-2.375 2.546-5.312c0-.66-.062-1.29-.168-1.873c.6.575 1.176.813 1.726.497zM15.5 12.2a4.279 4.279 0 1 0-.003-8.557A4.279 4.279 0 0 0 15.5 12.2zm8.594 2.714a3.514 3.514 0 0 0 0-7.025a3.513 3.513 0 1 0 .001 7.027zm4.28 2.13c-.502-.908-1.116-1.642-1.732-2.155a4.3 4.3 0 0 1-2.546.845c-.756 0-1.46-.207-2.076-.55c.496 1.093.803 2.2.86 3.19c.094 1.516-.38 2.64-1.328 3.165a2.017 2.017 0 0 1-.653.224c-.057.392-.096.8-.096 1.23c0 2.413.935 4.362 2.088 4.362c.694 0 1.04-.71 1.204-1.796c.163 1.08.508 1.796 1.2 1.796c1.145 0 2.09-1.95 2.09-4.36c0-.543-.053-1.06-.14-1.54c.492.473.966.668 1.418.408c1.007-.56.877-2.718-.29-4.82zm-21.468-2.13a3.512 3.512 0 1 0-3.514-3.512a3.515 3.515 0 0 0 3.514 3.514zm2.535 6.622c-1.592-.885-1.738-3.524-.456-6.354a4.242 4.242 0 0 1-2.078.553c-.956 0-1.832-.32-2.55-.846c-.615.512-1.228 1.246-1.732 2.153c-1.167 2.104-1.295 4.262-.287 4.82c.45.258.925.065 1.414-.406a8.83 8.83 0 0 0-.135 1.538c0 2.412.935 4.36 2.088 4.36c.694 0 1.04-.71 1.204-1.795c.165 1.08.51 1.796 1.2 1.796c1.147 0 2.09-1.95 2.09-4.36c0-.433-.04-.842-.097-1.234a2.02 2.02 0 0 1-.66-.226z"
+                />
+              </svg>
+              Following
+            </li>
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                viewBox="0 0 24 24"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <path
+                    d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M17.991 6.01L5.399 10.563l4.195 2.428l3.699-3.7a1 1 0 0 1 1.414 1.415l-3.7 3.7l2.43 4.194L17.99 6.01Zm.323-2.244c1.195-.433 2.353.725 1.92 1.92l-5.282 14.605c-.434 1.198-2.07 1.344-2.709.241l-3.217-5.558l-5.558-3.217c-1.103-.639-.958-2.275.241-2.709l14.605-5.282Z"
+                  />
+                </g>
+              </svg>
+              Streaming
+            </li>
           </div>
-        </div>
-        <header>
+          <div class="side-bar-sec2">
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0a6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+              History
+            </li>
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                viewBox="0 0 15 15"
+              >
+                <path
+                  fill="currentColor"
+                  d="M4.036 1a4.036 4.036 0 0 0-2.854 6.89l5.964 5.964a.5.5 0 0 0 .708 0l5.964-5.965a4.036 4.036 0 0 0-5.707-5.707l-.611.61l-.61-.61A4.036 4.036 0 0 0 4.035 1Z"
+                />
+              </svg>
+              Liked
+            </li>
+          </div>
+          <div class="side-bar-sec3">
+            <li class="sidebar-li">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <g fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M13.765 2.152C13.398 2 12.932 2 12 2c-.932 0-1.398 0-1.765.152a2 2 0 0 0-1.083 1.083c-.092.223-.129.484-.143.863a1.617 1.617 0 0 1-.79 1.353a1.617 1.617 0 0 1-1.567.008c-.336-.178-.579-.276-.82-.308a2 2 0 0 0-1.478.396C4.04 5.79 3.806 6.193 3.34 7c-.466.807-.7 1.21-.751 1.605a2 2 0 0 0 .396 1.479c.148.192.355.353.676.555c.473.297.777.803.777 1.361c0 .558-.304 1.064-.777 1.36c-.321.203-.529.364-.676.556a2 2 0 0 0-.396 1.479c.052.394.285.798.75 1.605c.467.807.7 1.21 1.015 1.453a2 2 0 0 0 1.479.396c.24-.032.483-.13.819-.308a1.617 1.617 0 0 1 1.567.008c.483.28.77.795.79 1.353c.014.38.05.64.143.863a2 2 0 0 0 1.083 1.083C10.602 22 11.068 22 12 22c.932 0 1.398 0 1.765-.152a2 2 0 0 0 1.083-1.083c.092-.223.129-.483.143-.863c.02-.558.307-1.074.79-1.353a1.617 1.617 0 0 1 1.567-.008c.336.178.579.276.819.308a2 2 0 0 0 1.479-.396c.315-.242.548-.646 1.014-1.453c.466-.807.7-1.21.751-1.605a2 2 0 0 0-.396-1.479c-.148-.192-.355-.353-.676-.555A1.617 1.617 0 0 1 19.562 12c0-.558.304-1.064.777-1.36c.321-.203.529-.364.676-.556a2 2 0 0 0 .396-1.479c-.052-.394-.285-.798-.75-1.605c-.467-.807-.7-1.21-1.015-1.453a2 2 0 0 0-1.479-.396c-.24.032-.483.13-.82.308a1.617 1.617 0 0 1-1.566-.008a1.617 1.617 0 0 1-.79-1.353c-.014-.38-.05-.64-.143-.863a2 2 0 0 0-1.083-1.083Z"
+                  />
+                </g>
+              </svg>
+              Settings
+            </li>
+          </div>
+        </ul>
+      </div>
+      <!-- secong div for the vertical second navigation division -->
+      <div class="second-division">
+        <div class="topnav">
+          <div class="search">
+            <input
+              class="input-field"
+              type="text"
+              placeholder="Search VillaLand"
+            />
+            <div class="text-[#3651c6] text-xl">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m20 20l-4.05-4.05m0 0a7 7 0 1 0-9.9-9.9a7 7 0 0 0 9.9 9.9z"
+                />
+              </svg>
+            </div>
+          </div>
           <div>
             <ul class="top-bar">
               <li>Overview</li>
@@ -53,16 +197,276 @@
               <li>All</li>
             </ul>
           </div>
-      </div>
-      </header>
-    </div>
-    <!-- for the third  section -->
-    <div class="third-division">
-      <img src="me.jpeg">
-      <header>Della Milley</header>
-    </div>
-  </div>
-  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-</body>
+        </div>
 
+        <!-- {the div section for the first row of cards} -->
+        <div class="cards-container">
+          <h2>Featured</h2>
+          <div class="first-row">
+            <div class="card feature-card one">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M2 3a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2v11a1 1 0 0 1-1 1h-4.613l1.562 4.684a1 1 0 0 1-1.898.632L13.28 16h-2.558L8.95 21.316a1 1 0 1 1-1.898-.632L8.613 16H4a1 1 0 0 1-1-1V4a1 1 0 0 1-1-1zm15 4a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0V7zm-4 2a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0V9zm-5 1a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H8z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h4>6,589 Views</h4>
+
+              <div class="sub-container">
+                <p class="card-desc">Project Management</p>
+
+                <p>22:14</p>
+              </div>
+            </div>
+            <div class="card feature-card two">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6.343 4.938a1 1 0 0 1 0 1.415a8.003 8.003 0 0 0 0 11.317a1 1 0 1 1-1.414 1.414c-3.907-3.906-3.907-10.24 0-14.146a1 1 0 0 1 1.414 0Zm12.732 0c3.906 3.907 3.906 10.24 0 14.146a1 1 0 0 1-1.415-1.414a8.003 8.003 0 0 0 0-11.317a1 1 0 0 1 1.415-1.415ZM9.31 7.812a1 1 0 0 1 0 1.414a3.92 3.92 0 0 0 0 5.544a1 1 0 1 1-1.415 1.414a5.92 5.92 0 0 1 0-8.372a1 1 0 0 1 1.415 0Zm6.958 0a5.92 5.92 0 0 1 0 8.372a1 1 0 0 1-1.414-1.414a3.92 3.92 0 0 0 0-5.544a1 1 0 0 1 1.414-1.414Zm-4.186 2.77a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Z"
+                  />
+                </svg>
+              </div>
+              <h>5,413 Views</h>
+              <div class="sub-container">
+                <p class="card-desc">Blockchain as a Career Option</p>
+                <p>22:16</p>
+              </div>
+            </div>
+            <div class="card feature-card three">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M8.591 3.742c-.107.14-.204.279-.289.408c-.283.43-.667.745-1.099.858l-3.432.904l-.605-1.249C2.638 3.573 1 3.95 1 5.16V8c0 1.16 1.108 2 2.225 1.684l3.105-.875l-.312 1.408c-.357 1.607 1.76 2.532 2.697 1.18l3.106-4.481l2.232-.818c.05-.019.1-.04.147-.064c.618-.307.978-1.033.713-1.705l-.008-.02a1.394 1.394 0 0 0-.16-.284l-.027-.039a7.216 7.216 0 0 0-.217-.28C13.875 2.93 12.854 2.008 11.503 2a2.676 2.676 0 0 0-.57.058c-.546.115-1.022.39-1.415.709a5.68 5.68 0 0 0-.91.953l-.017.022ZM4.443 4.7l-.099-.128C3.532 3.525 4.28 2 5.605 2c.323 0 .637.097.903.28l1.274.873a8.525 8.525 0 0 0-.314.446c-.188.284-.387.408-.52.442l-2.505.66ZM1.5 14a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1h-13Z"
+                  />
+                </svg>
+              </div>
+              <h>6,515 Views</h>
+              <div class="sub-container">
+                <p class="card-desc">Accelerate digital transformation</p>
+                <p>22:18</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--secong row stuff  -->
+
+        <div class="cards-container">
+          <h2>Upcoming</h2>
+          <div class="second-row">
+            <div class="card four">
+              <div class="">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <g fill="none">
+                      <path
+                        d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"
+                      />
+                      <path
+                        fill="currentColor"
+                        d="M17 12a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm-1-9a1 1 0 0 1 1 1v1h2a2 2 0 0 1 2 2v3h-2V7H5v12h5v2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2V4a1 1 0 0 1 2 0v1h6V4a1 1 0 0 1 1-1Zm1 11a3 3 0 1 0 0 6a3 3 0 0 0 0-6Zm0 .5a1 1 0 0 1 1 1v.5a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1v-1.5a1 1 0 0 1 1-1ZM8.5 14a1 1 0 0 1 .117 1.993L8.5 16H8a1 1 0 0 1-.117-1.993L8 14h.5Zm2.5-4a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2h3Z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <p>The Future of IT Services in the world</p>
+              </div>
+              <div class="container">
+                <h4><b>IT Service</b></h4>
+              </div>
+            </div>
+
+            <div class="card five">
+              <div class="">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M9.876 9.065c-.374 0-.638.033-.78.066v2.508c.164.044.384.055.66.055c1.011 0 1.627-.495 1.627-1.364c0-.825-.572-1.265-1.507-1.265Z"
+                    />
+                    <path
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      d="M6.77 3.082a47.472 47.472 0 0 1 10.46 0c1.899.212 3.43 1.707 3.653 3.613a45.67 45.67 0 0 1 0 10.61c-.223 1.906-1.754 3.401-3.652 3.614a47.468 47.468 0 0 1-10.461 0c-1.899-.213-3.43-1.708-3.653-3.613a45.672 45.672 0 0 1 0-10.611C3.34 4.789 4.871 3.294 6.77 3.082ZM9.095 15.5H7.753V8.185c.484-.088 1.155-.154 2.068-.154c.99 0 1.716.209 2.19.605c.44.363.725.946.725 1.639c0 .704-.22 1.287-.638 1.683c-.539.539-1.386.792-2.343.792c-.253 0-.484-.011-.66-.044V15.5Zm5.37.121c-.65 0-1.232-.165-1.628-.385l.264-.979c.308.187.89.385 1.375.385c.594 0 .858-.242.858-.594c0-.363-.22-.55-.88-.781c-1.045-.363-1.485-.935-1.474-1.562c0-.946.78-1.683 2.024-1.683c.594 0 1.11.154 1.419.319l-.264.957a2.406 2.406 0 0 0-1.133-.308c-.484 0-.748.231-.748.561c0 .341.253.506.935.748c.968.352 1.419.847 1.43 1.639c0 .968-.76 1.683-2.178 1.683Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p>Adobe Photoshop Fundamentals</p>
+              </div>
+              <div class="container">
+                <h4><b>Photoshop Workshop</b></h4>
+              </div>
+            </div>
+            <div class="card six">
+              <div class="">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455Zm1.69-6.929l-.975.563l1 1.732l.976-.563c.501.51 1.14.887 1.854 1.071V16h2v-1.126a3.996 3.996 0 0 0 1.854-1.072l.976.564l1-1.732l-.975-.563a4.004 4.004 0 0 0 0-2.142l.975-.563l-1-1.732l-.976.563A3.996 3.996 0 0 0 13 7.126V6h-2v1.126a3.996 3.996 0 0 0-1.854 1.071l-.976-.563l-1 1.732l.975.563a4.004 4.004 0 0 0 0 2.142ZM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4Z"
+                    />
+                  </svg>
+                </div>
+                <p>Task Management System</p>
+              </div>
+              <div class="container">
+                <h4><b>Task Manager System</b></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- for the third row -->
+        <div class="cards-container">
+          <h2>Top Channels</h2>
+          <div class="third-row">
+            <div class="card sept">
+              <div class="">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 48 48"
+                  >
+                    <mask id="ipTShareOne0">
+                      <g
+                        fill="none"
+                        stroke="#fff"
+                        stroke-linejoin="round"
+                        stroke-width="4"
+                      >
+                        <path
+                          fill="#555"
+                          d="M35 16a5 5 0 1 0 0-10a5 5 0 0 0 0 10ZM13 29a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          d="m30 13.575l-12.66 7.67m-.002 5.319l13.34 7.883"
+                        />
+                        <path
+                          fill="#555"
+                          d="M35 32a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z"
+                        />
+                      </g>
+                    </mask>
+                    <path
+                      fill="currentColor"
+                      d="M0 0h48v48H0z"
+                      mask="url(#ipTShareOne0)"
+                    />
+                  </svg>
+                </div>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
+
+            <div class="card oct">
+              <div class="">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13 6.5A2.5 2.5 0 0 0 10.5 4h-6A2.5 2.5 0 0 0 2 6.5v7A2.5 2.5 0 0 0 4.5 16h6a2.5 2.5 0 0 0 2.5-2.5v-7Zm1 1.43v4.152l2.764 2.35A.75.75 0 0 0 18 13.86V6.193a.75.75 0 0 0-1.23-.575L14 7.93Z"
+                    />
+                  </svg>
+                </div>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
+
+            <div class="card nine">
+              <div class="">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 22A10 10 0 0 1 2 12A10 10 0 0 1 12 2c5.5 0 10 4 10 9a6 6 0 0 1-6 6h-1.8c-.3 0-.5.2-.5.5c0 .1.1.2.1.3c.4.5.6 1.1.6 1.7c.1 1.4-1 2.5-2.4 2.5m0-18a8 8 0 0 0-8 8a8 8 0 0 0 8 8c.3 0 .5-.2.5-.5c0-.2-.1-.3-.1-.4c-.4-.5-.6-1-.6-1.6c0-1.4 1.1-2.5 2.5-2.5H16a4 4 0 0 0 4-4c0-3.9-3.6-7-8-7m-5.5 6c.8 0 1.5.7 1.5 1.5S7.3 13 6.5 13S5 12.3 5 11.5S5.7 10 6.5 10m3-4c.8 0 1.5.7 1.5 1.5S10.3 9 9.5 9S8 8.3 8 7.5S8.7 6 9.5 6m5 0c.8 0 1.5.7 1.5 1.5S15.3 9 14.5 9S13 8.3 13 7.5S13.7 6 14.5 6m3 4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5Z"
+                    />
+                  </svg>
+                </div>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- for the vertical  third  section -->
+      <div class="third-division">
+        <div class="profile">
+          <img src="me.jpeg" />
+          <h4>Della Milley</h4>
+        </div>
+        <div class="pics-con">
+          <div class="picture">
+            <img src="random pic/Beach.webp" />
+          </div>
+          <div class="picture">
+            <img src="random pic/park.webp" />
+          </div>
+          <div class="picture">
+            <img src="random pic/sand.webp" />
+          </div>
+          <div class="picture">
+            <img src="random pic/scenic.webp" />
+          </div>
+          <div class="picture">
+            <img src="random pic/traveler.webp" />
+          </div>
+          <div class="picture">
+            <img src="random pic/view.webp" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="uic.js"></script>
 </html>
